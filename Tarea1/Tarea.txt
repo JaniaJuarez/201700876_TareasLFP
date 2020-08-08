@@ -1,10 +1,10 @@
 Diferencia entre los Lenguajes de Programacion Imperativos y Declarativos
 
-Que el imperativo se enfoca en el "COMO" más que todo es el lenguaje que 
-le indica a la computadora como realizar una instrucción.
-Mientras que el declarativo se enfoca en "QUE" nos dice que es lo que se 
-tiene que realizar y una pequeña ventaja es que a veces se puede realizar con 
-solamente una línea de código.
+La programación imperativa (COMO) se detallan las instrucciones necesarias para llegar a la solución, 
+se declara pasó a pasó lo que se desea realizar.
+Mientras que en la programación declarativa (QUE) describe el problema que se quiere solucionar,
+pero no las instrucciones necesarias para hacerlo, no se declara el pasó a pasó, se declaran los resultados que uno desea obtener.
+
 
 Ejemplo Imperativo
 
@@ -14,6 +14,5 @@ foreach ($listaparticipantes as $id => $apellido) {
     $nombres[] = $apellido;
 }
 Ejemplo Declarativo
-Se puede observar que es el mismo que el imperativo y realiza lo mismo pero en una línea.
 
 $nombres = array_values($listaparticipantes);
