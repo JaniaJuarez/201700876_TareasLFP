@@ -4,4 +4,4 @@ for i in range(size):
     while line <= i:
         print("*", end = '')
         line = line + 1
-    
+    print('')
