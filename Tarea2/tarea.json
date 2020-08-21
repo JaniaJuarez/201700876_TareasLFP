@@ -1,27 +1,33 @@
 [
     {
-        "Nombre": "Atributo 1",
-        "Edad": 18,
-        "Mayor de edad": true,
-        "Estatura": 1.68
+        "nombre": "Atributo 1",
+        "edad": 18,
+        "activo": true,
+        "promedio": 1.68
     },
     {
-        "Nombre": "Atributo 2",
-        "Edad": 5,
-        "Mayor de edad": false,
-        "Estatura": 1.05
+        "nombre": "Atributo 2",
+        "edad": 18,
+        "activo": true,
+        "promedio": 1.68
     },
     {
-        "Nombre": "Atributo 1",
-        "Edad": 17,
-        "Mayor de edad": false,
-        "Estatura": 1.60
+        "nombre": "Atributo 3",
+        "edad": 18,
+        "activo": true,
+        "promedio": 1.68
     },
     {
-        "Nombre": "Atributo 1",
-        "Edad": 55,
-        "Mayor de edad": true,
-        "Estatura": 2.00
+        "nombre": "Atributo 4",
+        "edad": 18,
+        "activo": true,
+        "promedio": 1.68
+    },
+    {
+        "nombre": "Atributo 5",
+        "edad": 18,
+        "activo": true,
+        "promedio": 1.68
     }
 
 ]
