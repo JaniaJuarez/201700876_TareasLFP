@@ -1,6 +1,6 @@
 
 cadenaestado1 = '__servidor1' 
-cadenaestados1 = '3servidor '
+cadenaestados2 = '3servidor '
 
 
 def AFD(entradas):
@@ -49,4 +49,4 @@ def AFD(entradas):
     print ("CADENA CORRECTA !!!")
 
 AFD(cadenaestado1)
-AFD(cadenaestados1)
+AFD(cadenaestados2)
