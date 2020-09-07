@@ -1,6 +1,6 @@
 
-cadenaestado1 = '--------------------------------------------A1' 
-cadenaestados1 = '--AAAAA1' 
+cadenaestado1 = '__servidor1' 
+cadenaestados1 = '3servidor '
 
 
 def AFD(entradas):
@@ -8,7 +8,7 @@ def AFD(entradas):
 
     for i in range(len(entradas)):
         if estado == 0:
-            if entradas[i] == '-':
+            if entradas[i] == '_':
                 estado = 1
             elif entradas[i] == 'A':
                 estado = 2
@@ -16,7 +16,7 @@ def AFD(entradas):
                 print("ERROR CADENA INCORRECTA!!!!")
                 return
         elif estado == 1:
-            if entradas[i] == '-':
+            if entradas[i] == '_':
                 estado = 1
             elif entradas[i] == 'A':
                 estado = 3
